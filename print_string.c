@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * print_string - Affiche une chaîne de caractères
- * @args: Liste d'arguments variadiques
- *
- * Return: Nombre de caractères imprimés
+ * print_string - print a string
+ * @args: list of arguments
+ * Return: number of arguments to print
  */
 int print_string(va_list args)
 {

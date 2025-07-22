@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _printf - version of printf (handles %c, %s, %%)
+ * _printf - version of printf
  * @format: format string
  * Return: number of character to print
  */
