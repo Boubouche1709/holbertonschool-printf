@@ -8,8 +8,6 @@
 - [Project Description](#-project-description)
 - [Requirements](#-requirements)
 - [Features](#-features)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
 - [Man Page Installation](#-man-page-installation)
 - [Current Limitations](#-current-limitations)
 - [Recommended Development Process](#-recommended-development-process)
@@ -55,12 +53,6 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
   - `%s`: String printing
   - `%d` and `%i`: Integer printing
   - `%%`: Percent sign printing
-
-## 🚀 Usage
-
-
-## 📦 Project Structure
-
 
 ## 📖 Man Page Installation
 ### Prerequisites
