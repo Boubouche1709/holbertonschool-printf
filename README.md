@@ -104,7 +104,7 @@ sudo mandb
 
 ## 🔄 Flowchart
 <p align="center">
-   <img src=<img width="1360" height="4896" alt="image" src="https://github.com/user-attachments/assets/73f3115e-cc28-437c-84c3-dcf39fe638e4" />
+   <img src="https://github.com/user-attachments/assets/73f3115e-cc28-437c-84c3-dcf39fe638e4"/>
 </p>
 
 
