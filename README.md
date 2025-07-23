@@ -119,3 +119,4 @@ sudo mandb
 
 ## 👥 Authors
 - [Boubouche1709](https://github.com/Boubouche1709)
+- [h7k2](https://github.com/h7k2)
