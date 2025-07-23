@@ -1,0 +1,51 @@
+.TH PRINTF 3 "22 July 2024" "Holberton School" "User Commands"
+
+.SH NAME
+_printf \- custom implementation of printf function (handle %c, %s, %d, %i, %%)
+
+.SH SYNOPSIS
+.B #include "main.h"
+.br
+.B int _printf(const char *format, ...);
+
+.SH DESCRIPTION
+.B _printf
+The _printf function produces output according to a format string. It displays data to the standard output.
+
+Supported conversion specifiers:
+.TP
+.B %c
+Prints a single character.
+.TP
+.B %s
+Prints a string.
+.TP
+.B %%
+Prints a percent sign.
+.TP
+.B %d, %i
+Prints a decimal integer.
+
+If an invalid format specifier is encountered, both the '%' and the following character are printed as-is.
+.SH RETURN VALUE
+Returns the total number of characters printed to the output (excluding the null byte).
+
+If there is an error, the return value will be negative.
+
+.SH EXAMPLES
+.nf
+_printf("Hello, %s and %s! You scored %d%% on the test.\n", "Florian Hadjar", "Heytem Keddous", 85);
+.fi
+
+Output:
+.in
+Hello, Florian Hadjar and Heytem Keddous! You scored 85% on the test.
+
+.SH SEE ALSO
+.BR printf (3)
+
+.SH AUTHORS
+Function written by Florian Hadjar and Heytem Keddous
+
+.SH COPYRIGHT
+Free to use and modify for educational or personal purposes.
