@@ -103,7 +103,9 @@ sudo mandb
 5. Ensure Betty style compliance
 
 ## 🔄 Flowchart
-
+<p align="center">
+   <img src=https://app.diagrams.net/#HBoubouche1709%2Fholbertonschool-printf%2Fmain%2FFlowchart%20_Printf%20Project.drawio#%7B%22pageId%22%3A%22Wt7EIqEQvQsSyRAGQnAF%22%7D/>
+</p>
 
 
 ## 👥 Authors
