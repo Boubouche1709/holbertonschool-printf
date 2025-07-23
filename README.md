@@ -52,6 +52,10 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 - Custom implementation of `printf`
 - Supports multiple format specifiers:
   - `%c`: Character printing
+    ```bash
+_printf("Character:[%c]\n", 'H');
+Character:[H]
+```
   - `%s`: String printing
   - `%d` and `%i`: Integer printing
   - `%%`: Percent sign printing
@@ -74,20 +78,9 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
 ```
-
-#### 2. Prepare the Installation Script
-```bash
-chmod +x install_man_page.sh
-```
-
-#### 3. Run the Installation Script
-```bash
-sudo ./install_man_page.sh
-```
-
 #### Verifying Installation
 ```bash
-man _printf
+man ./man_3_printf.3
 ```
 
 ### Troubleshooting
