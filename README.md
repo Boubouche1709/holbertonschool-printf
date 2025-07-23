@@ -17,7 +17,7 @@
 - [Authors](#-authors)
 
 ## 📝 Project Description
-This project is a custom implementation of the standard C library `printf` function, developed as part of a learning exercise in low-level programming. 
+This project is a custom implementation of the standard C library `printf` function, developed as part of a learning exercise in low-level programming.
 The `_printf` function provides formatted output conversion with a subset of standard printf.
 
 ## 🛠 Requirements
@@ -105,7 +105,6 @@ sudo mandb
 ## 🔄 Flowchart
 <p align="center">
    <img src="https://github.com/user-attachments/assets/520a18b1-3ad3-4454-868f-9c6404cfa614"/>
-"/>
 </p>
 
 
