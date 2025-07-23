@@ -8,8 +8,6 @@
 - [Project Description](#-project-description)
 - [Requirements](#-requirements)
 - [Features](#-features)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
 - [Man Page Installation](#-man-page-installation)
 - [Current Limitations](#-current-limitations)
 - [Recommended Development Process](#-recommended-development-process)
@@ -17,7 +15,7 @@
 - [Authors](#-authors)
 
 ## 📝 Project Description
-This project is a custom implementation of the standard C library `printf` function, developed as part of a learning exercise in low-level programming. 
+This project is a custom implementation of the standard C library `printf` function, developed as part of a learning exercise in low-level programming.
 The `_printf` function provides formatted output conversion with a subset of standard printf.
 
 ## 🛠 Requirements
@@ -56,12 +54,6 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
   - `%d` and `%i`: Integer printing
   - `%%`: Percent sign printing
 
-## 🚀 Usage
-
-
-## 📦 Project Structure
-
-
 ## 📖 Man Page Installation
 ### Prerequisites
 - Git
@@ -74,20 +66,9 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
 ```
-
-#### 2. Prepare the Installation Script
-```bash
-chmod +x install_man_page.sh
-```
-
-#### 3. Run the Installation Script
-```bash
-sudo ./install_man_page.sh
-```
-
 #### Verifying Installation
 ```bash
-man _printf
+man ./man_3_printf.3
 ```
 
 ### Troubleshooting
@@ -114,7 +95,9 @@ sudo mandb
 5. Ensure Betty style compliance
 
 ## 🔄 Flowchart
-
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/520a18b1-3ad3-4454-868f-9c6404cfa614"/>
+</p>
 
 
 ## 👥 Authors
