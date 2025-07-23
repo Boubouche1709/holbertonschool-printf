@@ -104,7 +104,7 @@ sudo mandb
 
 ## 🔄 Flowchart
 <p align="center">
-   <img src="https://github.com/user-attachments/assets/73f3115e-cc28-437c-84c3-dcf39fe638e4"/>
+   <img src="https://github.com/Boubouche1709/holbertonschool-printf/blob/main/_printf%20Flowchart.drawio.png"/>
 </p>
 
 
