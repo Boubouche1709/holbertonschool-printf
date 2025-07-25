@@ -11,6 +11,7 @@
 - [Man Page Installation](#-man-page-installation)
 - [Current Limitations](#-current-limitations)
 - [Recommended Development Process](#-recommended-development-process)
+- [Comparaisons](#-comparaisons).
 - [Flowchart](#-flowchart)
 - [Authors](#-authors)
 
@@ -93,6 +94,37 @@ sudo mandb
 3. Handle edge cases
 4. Optimize and refactor
 5. Ensure Betty style compliance
+   
+## 📌 Comparaisons
+### 🖊️ Phrase simple
+
+```c
+len = _printf("Let's try to printf a simple sentence.\n");
+len2 = printf("Let's try to printf a simple sentence.\n");
+len = _printf("Percent:[100%%]\n");
+len2 = printf("Percent:[100%%]\n");
+_printf("Length:[%d, %i]\n", len, len);
+printf("Length:[%d, %i]\n", len2, len2);
+_printf("Negative:[%d]\n", -762534);
+printf("Negative:[%d]\n", -762534);
+_printf("Character: Our initials are [%c.%c] and [%c.%c]\n", 'H', 'F', 'H', 'K');
+printf("Character: Our initials are [%c.%c] and [%c.%c]\n", 'H', 'F', 'H', 'K');
+_printf("String:[%s]\n", "Our name is Florian and Haytem !");
+printf("String:[%s]\n", "Our name is Florian and Haytem !");
+
+Let's try to printf a simple sentence.
+Let's try to printf a simple sentence.
+Percent:[100%]
+Percent:[100%]
+Length:[15, 15]
+Length:[15, 15]
+Negative:[-762534]
+Negative:[-762534]
+Character: Our initials are [H.F] and [H.K]
+Character: Our initials are [H.F] and [H.K]
+String:[Our name is Florian and Haytem !]
+String:[Our name is Florian and Haytem !]
+```
 
 ## 🔄 Flowchart
 <p align="center">
