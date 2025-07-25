@@ -96,7 +96,6 @@ sudo mandb
 5. Ensure Betty style compliance
    
 ## 📌 Comparaisons
-### 🖊️ Phrase simple
 
 ```c
 len = _printf("Let's try to printf a simple sentence.\n");
@@ -109,8 +108,8 @@ _printf("Negative:[%d]\n", -762534);
 printf("Negative:[%d]\n", -762534);
 _printf("Character: Our initials are [%c.%c] and [%c.%c]\n", 'H', 'F', 'H', 'K');
 printf("Character: Our initials are [%c.%c] and [%c.%c]\n", 'H', 'F', 'H', 'K');
-_printf("String:[%s]\n", "Our name is Florian and Haytem !");
-printf("String:[%s]\n", "Our name is Florian and Haytem !");
+_printf("String:[%s]\n", "Our name is Florian and Heytem !");
+printf("String:[%s]\n", "Our name is Florian and Heytem !");
 
 Let's try to printf a simple sentence.
 Let's try to printf a simple sentence.
@@ -122,8 +121,8 @@ Negative:[-762534]
 Negative:[-762534]
 Character: Our initials are [H.F] and [H.K]
 Character: Our initials are [H.F] and [H.K]
-String:[Our name is Florian and Haytem !]
-String:[Our name is Florian and Haytem !]
+String:[Our name is Florian and Heytem !]
+String:[Our name is Florian and Heytem !]
 ```
 
 ## 🔄 Flowchart
